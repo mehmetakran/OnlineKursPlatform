@@ -26,7 +26,7 @@ namespace onlineKursPlatform.Models
             }
 
             ogrenci.KayitliDersler.Add(ders);  // Öğrenci kaydını ekle
-            return "Öğrenci: " + ogrenci.AdSoyad + " başarıyla derse " + ders.Ad + " kaydoldu.";
+            return "Öğrenci: " + ogrenci.AdSoyad + " başarıyla derse " + ders.Ad + " kayıt edilmiştir.";
         }
 
         // Ders adı kontrolü
