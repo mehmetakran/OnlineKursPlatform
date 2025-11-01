@@ -79,6 +79,7 @@
             Name = "Giris";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Akran Online Kurs Platformu";
+            Load += Giris_Load;
             ResumeLayout(false);
         }
 
